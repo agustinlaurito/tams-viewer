@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "node_modules/.bin/eslint index.js ecosystem.config.js config core tests",
     "lint-fix": "node_modules/.bin/eslint --fix index.js config core "
@@ -20,7 +21,9 @@
   },
   "homepage": "https://github.com/agustinlaurito/tams-viewer#readme",
   "dependencies": {
+    "axios": "^0.27.2",
     "body-parser": "^1.20.0",
+    "cheerio": "^1.0.0-rc.11",
     "config": "^3.3.7",
     "eslint": "^8.16.0",
     "eslint-config-standard": "^17.0.0",
